@@ -1,0 +1,70 @@
+# My personal ignore list for programming languages
+# T.K. Kim
+#
+# Note: remove any extra spaces at the end of each line.
+
+
+# Ubuntu backup files
+*~
+*.*~
+*.swp
+
+# temporary LaTeX objects
+# http://tex.stackexchange.com/questions/17845/which-auxiliary-latex-files-should-be-ignored-by-version-control-software
+*.aux
+*.pdf
+*.ps
+*.dvi
+*.log
+*.bak
+*.synctex
+*.gz
+*.out
+*.bbl
+*.blg
+*.fdb_latexmk
+
+# Other types
+*.html
+*.docx
+~*
+
+# Figures (need to comment out for tex files)
+*.jpg
+
+# Executables
+*.exe
+*.o
+
+# R related files
+*.RData
+# *.txt
+.Rproj.user/*
+*.Rproj
+
+# R package related
+man/*
+NAMESPACE
+*.Rd
+
+# temporary files
+@@*
+
+# Haskell
+*.in
+*.hi
+*.hp
+*.prof
+dist
+cabal-dev
+*.chi
+*.chs.h
+.virtualenv
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+cabal.config
+
+# Python
+__pycache__/*
+
